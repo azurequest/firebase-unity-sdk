@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{C4AD9936-F0DF-1090-6077-3D4A6324E662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gha", "gha", "{1BE32E8A-E46E-C648-B66B-78495268DE7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "integration_testing", "integration_testing", "{D1FCA706-BF4D-828B-34B5-60299EE36A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "automated_testapp", "automated_testapp", "{DD36BB88-909B-194E-2BE7-1B9F87E37A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firebase.TestLabManager", "scripts\gha\integration_testing\automated_testapp\ftl_testapp_files\Firebase.TestLabManager.csproj", "{B2ED913F-526B-41B5-5A03-69E0F5893538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2ED913F-526B-41B5-5A03-69E0F5893538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2ED913F-526B-41B5-5A03-69E0F5893538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2ED913F-526B-41B5-5A03-69E0F5893538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2ED913F-526B-41B5-5A03-69E0F5893538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BE32E8A-E46E-C648-B66B-78495268DE7C} = {C4AD9936-F0DF-1090-6077-3D4A6324E662}
+		{D1FCA706-BF4D-828B-34B5-60299EE36A5D} = {1BE32E8A-E46E-C648-B66B-78495268DE7C}
+		{DD36BB88-909B-194E-2BE7-1B9F87E37A00} = {D1FCA706-BF4D-828B-34B5-60299EE36A5D}
+		{B2ED913F-526B-41B5-5A03-69E0F5893538} = {DD36BB88-909B-194E-2BE7-1B9F87E37A00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF52983D-463E-4951-92A6-6B0FC95FA393}
+	EndGlobalSection
+EndGlobal
